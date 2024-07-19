@@ -10,7 +10,7 @@ const Section04 = () => {
             </h3>
             <div>
                 <CircleContainer>
-                    <h3>Commitiment</h3>``
+                    <h3>Commitiment</h3>
                     <p>정직 : Honesty</p>
                     <p>존중 : Respect</p>
                     <p>신뢰 : Trust</p>

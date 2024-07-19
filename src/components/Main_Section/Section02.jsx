@@ -1,18 +1,16 @@
-import styled from 'styled-components';
+import React from 'react'
+import { Section02Wrap } from './Section02.styled'
 
-export const MainWrap = styled.section`
-.Nav_wrap {
-width: 100%;
-height: 80px;
- background-color: #111111;
-display: flex;
-justify-content: center;
-align-items: center;
-`;
+const Section02 = () => {
+    return (
+        <Section02Wrap>
+            <p>MISSION</p>
+            <h2>
+                사람과 기술을 연결한다.<br />
+                Connecting people and technology.
+            </h2>
+        </Section02Wrap>
+    )
+}
 
-{/* 
-     src/assets/sass/sction/_mainsection안에 스타일을 참고해서
-                Section01Wrap, Section01Content,를 활용한 style.js를 
-                위에 예시처럼 만들어주세요
-                 잘모르겠다면 Section04.styled.js 참고
-    */}
+export default Section02
